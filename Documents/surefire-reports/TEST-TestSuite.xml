@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="276.966" tests="20" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Arun Reddy R\gittest2\xaltsocnportal-assignment\Automation\target\test-classes;C:\Users\Arun Reddy R\gittest2\xaltsocnportal-assignment\Automation\target\classes;C:\Users\Arun Reddy R\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.3\webdrivermanager-5.9.3.jar;C:\Users\Arun Reddy R\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Arun Reddy R\.m2\repository\com\github\docker-java\docker-java\3.4.1\docker-java-3.4.1.jar;C:\Users\Arun Reddy R\.m2\repository\com\github\docker-java\docker-java-core\3.4.1\docker-java-core-3.4.1.jar;C:\Users\Arun Reddy R\.m2\repository\com\github\docker-java\docker-java-api\3.4.1\docker-java-api-3.4.1.jar;C:\Users\Arun Reddy R\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Arun Reddy R\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Arun Reddy R\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Arun Reddy R\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Arun Reddy R\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.1\docker-java-transport-httpclient5-3.4.1.jar;C:\Users\Arun Reddy R\.m2\repository\com\github\docker-java\docker-java-transport\3.4.1\docker-java-transport-3.4.1.jar;C:\Users\Arun Reddy R\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Arun Reddy R\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\Arun Reddy R\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\Arun Reddy R\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Arun Reddy R\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Arun Reddy R\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Arun Reddy R\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Arun Reddy R\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Arun Reddy R\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Arun Reddy R\.m2\repository\org\slf4j\slf4j-simple\2.0.16\slf4j-simple-2.0.16.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\cucumber-testng\7.21.1\cucumber-testng-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Arun Reddy R\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Arun Reddy R\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\Arun Reddy R\.jdks\openjdk-23.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Arun Reddy R\AppData\Local\Temp\surefire11166992883611724507\surefirebooter-20250303235516083_3.jar C:\Users\Arun Reddy R\AppData\Local\Temp\surefire11166992883611724507 2025-03-03T23-55-15_408-jvmRun1 surefire-20250303235516083_1tmp surefire_0-20250303235516083_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Arun Reddy R\gittest2\xaltsocnportal-assignment\Automation\target\test-classes;C:\Users\Arun Reddy R\gittest2\xaltsocnportal-assignment\Automation\target\classes;C:\Users\Arun Reddy R\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.3\webdrivermanager-5.9.3.jar;C:\Users\Arun Reddy R\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Arun Reddy R\.m2\repository\com\github\docker-java\docker-java\3.4.1\docker-java-3.4.1.jar;C:\Users\Arun Reddy R\.m2\repository\com\github\docker-java\docker-java-core\3.4.1\docker-java-core-3.4.1.jar;C:\Users\Arun Reddy R\.m2\repository\com\github\docker-java\docker-java-api\3.4.1\docker-java-api-3.4.1.jar;C:\Users\Arun Reddy R\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Arun Reddy R\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Arun Reddy R\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Arun Reddy R\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Arun Reddy R\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.1\docker-java-transport-httpclient5-3.4.1.jar;C:\Users\Arun Reddy R\.m2\repository\com\github\docker-java\docker-java-transport\3.4.1\docker-java-transport-3.4.1.jar;C:\Users\Arun Reddy R\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Arun Reddy R\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\Arun Reddy R\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\Arun Reddy R\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Arun Reddy R\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Arun Reddy R\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Arun Reddy R\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Arun Reddy R\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Arun Reddy R\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Arun Reddy R\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Arun Reddy R\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Arun Reddy R\.m2\repository\org\slf4j\slf4j-simple\2.0.16\slf4j-simple-2.0.16.jar;C:\Users\Arun Reddy R\.m2\repository\io\cucumber\cucumber-testng\7.21.1\cucumber-testng-7.21.1.jar;C:\Users\Arun Reddy R\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Arun Reddy R\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Arun Reddy R\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Arun Reddy R"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Users\Arun Reddy R\.jdks\openjdk-23.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Arun Reddy R\gittest2\xaltsocnportal-assignment\Automation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Arun Reddy R\AppData\Local\Temp\surefire11166992883611724507\surefirebooter-20250303235516083_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2+7-58"/>
+    <property name="user.name" value="Arun Reddy R"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Arun Reddy R\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ARUNRE~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.3.4"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="C:\Users\Arun Reddy R\gittest2\xaltsocnportal-assignment\Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Arun Reddy R\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\BellSoft\LibericaJDK-17\bin\;C:\Program Files\Java\jdk-23.0.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Arun Reddy R\AppData\Local\Programs\Python\Python312\;C:\ProgramData\chocolatey\bin;C:\Users\Arun Reddy R\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\Apache\apache-maven-3.9.9\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files (x86)\Python312\Scripts\;C:\Program Files (x86)\Python312\;C:\Users\Arun Reddy R\AppData\Local\Programs\Python\Launcher\;C:\Users\Arun Reddy R\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Arun Reddy R\AppData\Roaming\npm;C:\Users\Arun Reddy R\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.3.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.2+7-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Successful Sign In and Sign Out&quot;, &quot;User Sign In&quot;](1)" classname="runners.CucumberTestRunner" time="17.069">
+    <system-out><![CDATA[
+Scenario Outline: Successful Sign In and Sign Out                                 # src/test/resources/features/SignIn.feature:22
+  Given I navigate to the "https://xaltsocnportal.web.app/"                       # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Sign In' button                                            # stepDefinitions.CommonSteps.iClickSignInButton()
+  Then I should be on the Sign In page                                            # stepDefinitions.CommonSteps.verifySignInPage()
+  And I click on 'Already have an account? click here to join' button             # stepDefinitions.SignInSteps.iClickOnAlreadyHaveAnAccountClickHereToJoinButton()
+  Then I should see Sign In form                                                  # stepDefinitions.SignInSteps.iShouldBeSeeSignInForm()
+  When I enter my registered test@testmail.com for sign in and correct Xalts@2025 # stepDefinitions.SignInSteps.iEnterMyRegisteredEmailForSignInAndCorrectPassword(java.lang.String,java.lang.String)
+  And I submit the Sign In form                                                   # stepDefinitions.SignInSteps.iSubmitTheSignInForm()
+  Then I should see the 'Sign Out' button                                         # stepDefinitions.SignUpSteps.verifySignUp()
+  When I click on the 'Sign Out' button                                           # stepDefinitions.SignOutSteps.signOut()
+  And I should see the 'Sign In' button                                           # stepDefinitions.SignOutSteps.iShouldSeeTheSignInButton()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign In should be disabled for invalid inputs&quot;, &quot;User Sign In&quot;](2)" classname="runners.CucumberTestRunner" time="2.629">
+    <system-out><![CDATA[
+Scenario Outline: Sign In should be disabled for invalid inputs          # src/test/resources/features/SignIn.feature:30
+  Given I navigate to the "https://xaltsocnportal.web.app/"              # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Sign In' button                                   # stepDefinitions.CommonSteps.iClickSignInButton()
+  Then I should be on the Sign In page                                   # stepDefinitions.CommonSteps.verifySignInPage()
+  And I click on 'Already have an account? click here to join' button    # stepDefinitions.SignInSteps.iClickOnAlreadyHaveAnAccountClickHereToJoinButton()
+  Then I should see Sign In form                                         # stepDefinitions.SignInSteps.iShouldBeSeeSignInForm()
+  When I enter an invalid email test@com or an invalid password Xalts123 # stepDefinitions.SignInSteps.iEnterAnInvalidEmailOrAnInvalidPassword(java.lang.String,java.lang.String)
+  Then the Sign In button should remain disabled                         # stepDefinitions.SignInSteps.theSignInButtonShouldRemainDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign In should be disabled for invalid inputs&quot;, &quot;User Sign In&quot;](3)" classname="runners.CucumberTestRunner" time="2.558">
+    <system-out><![CDATA[
+Scenario Outline: Sign In should be disabled for invalid inputs               # src/test/resources/features/SignIn.feature:31
+  Given I navigate to the "https://xaltsocnportal.web.app/"                   # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Sign In' button                                        # stepDefinitions.CommonSteps.iClickSignInButton()
+  Then I should be on the Sign In page                                        # stepDefinitions.CommonSteps.verifySignInPage()
+  And I click on 'Already have an account? click here to join' button         # stepDefinitions.SignInSteps.iClickOnAlreadyHaveAnAccountClickHereToJoinButton()
+  Then I should see Sign In form                                              # stepDefinitions.SignInSteps.iShouldBeSeeSignInForm()
+  When I enter an invalid email user#domain.com or an invalid password 123456 # stepDefinitions.SignInSteps.iEnterAnInvalidEmailOrAnInvalidPassword(java.lang.String,java.lang.String)
+  Then the Sign In button should remain disabled                              # stepDefinitions.SignInSteps.theSignInButtonShouldRemainDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign In should be disabled for invalid inputs&quot;, &quot;User Sign In&quot;](4)" classname="runners.CucumberTestRunner" time="13.169">
+    <system-out><![CDATA[
+Scenario Outline: Sign In should be disabled for invalid inputs       # src/test/resources/features/SignIn.feature:32
+  Given I navigate to the "https://xaltsocnportal.web.app/"           # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Sign In' button                                # stepDefinitions.CommonSteps.iClickSignInButton()
+  Then I should be on the Sign In page                                # stepDefinitions.CommonSteps.verifySignInPage()
+  And I click on 'Already have an account? click here to join' button # stepDefinitions.SignInSteps.iClickOnAlreadyHaveAnAccountClickHereToJoinButton()
+  Then I should see Sign In form                                      # stepDefinitions.SignInSteps.iShouldBeSeeSignInForm()
+  When I enter an invalid email  or an invalid password Xalts@2025    # stepDefinitions.SignInSteps.iEnterAnInvalidEmailOrAnInvalidPassword(java.lang.String,java.lang.String)
+  Then the Sign In button should remain disabled                      # stepDefinitions.SignInSteps.theSignInButtonShouldRemainDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign In should be disabled for invalid inputs&quot;, &quot;User Sign In&quot;](5)" classname="runners.CucumberTestRunner" time="2.494">
+    <system-out><![CDATA[
+Scenario Outline: Sign In should be disabled for invalid inputs           # src/test/resources/features/SignIn.feature:33
+  Given I navigate to the "https://xaltsocnportal.web.app/"               # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Sign In' button                                    # stepDefinitions.CommonSteps.iClickSignInButton()
+  Then I should be on the Sign In page                                    # stepDefinitions.CommonSteps.verifySignInPage()
+  And I click on 'Already have an account? click here to join' button     # stepDefinitions.SignInSteps.iClickOnAlreadyHaveAnAccountClickHereToJoinButton()
+  Then I should see Sign In form                                          # stepDefinitions.SignInSteps.iShouldBeSeeSignInForm()
+  When I enter an invalid email test@testmail.com or an invalid password  # stepDefinitions.SignInSteps.iEnterAnInvalidEmailOrAnInvalidPassword(java.lang.String,java.lang.String)
+  Then the Sign In button should remain disabled                          # stepDefinitions.SignInSteps.theSignInButtonShouldRemainDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign In should be disabled for invalid inputs&quot;, &quot;User Sign In&quot;](6)" classname="runners.CucumberTestRunner" time="2.414">
+    <system-out><![CDATA[
+Scenario Outline: Sign In should be disabled for invalid inputs       # src/test/resources/features/SignIn.feature:34
+  Given I navigate to the "https://xaltsocnportal.web.app/"           # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Sign In' button                                # stepDefinitions.CommonSteps.iClickSignInButton()
+  Then I should be on the Sign In page                                # stepDefinitions.CommonSteps.verifySignInPage()
+  And I click on 'Already have an account? click here to join' button # stepDefinitions.SignInSteps.iClickOnAlreadyHaveAnAccountClickHereToJoinButton()
+  Then I should see Sign In form                                      # stepDefinitions.SignInSteps.iShouldBeSeeSignInForm()
+  When I enter an invalid email  or an invalid password               # stepDefinitions.SignInSteps.iEnterAnInvalidEmailOrAnInvalidPassword(java.lang.String,java.lang.String)
+  Then the Sign In button should remain disabled                      # stepDefinitions.SignInSteps.theSignInButtonShouldRemainDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign In with Non-Existing User&quot;, &quot;User Sign In&quot;](7)" classname="runners.CucumberTestRunner" time="14.635">
+    <system-out><![CDATA[
+Scenario Outline: Sign In with Non-Existing User                       # src/test/resources/features/SignIn.feature:43
+  Given I navigate to the "https://xaltsocnportal.web.app/"            # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Sign In' button                                 # stepDefinitions.CommonSteps.iClickSignInButton()
+  Then I should be on the Sign In page                                 # stepDefinitions.CommonSteps.verifySignInPage()
+  And I click on 'Already have an account? click here to join' button  # stepDefinitions.SignInSteps.iClickOnAlreadyHaveAnAccountClickHereToJoinButton()
+  Then I should see Sign In form                                       # stepDefinitions.SignInSteps.iShouldBeSeeSignInForm()
+  When I enter a non-existing usertest@test.com and correct Xalts@2025 # stepDefinitions.SignInSteps.iEnterANonExistingEmailCorrectPasswd(java.lang.String,java.lang.String)
+  And I submit the Sign In form                                        # stepDefinitions.SignInSteps.iSubmitTheSignInForm()
+  Then I should see a User not found alert message                     # stepDefinitions.SignInSteps.iShouldSeeAUserNotFoundAlertMessage(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign In with Existing User and Wrong Password&quot;, &quot;User Sign In&quot;](8)" classname="runners.CucumberTestRunner" time="14.25">
+    <system-out><![CDATA[
+Scenario Outline: Sign In with Existing User and Wrong Password            # src/test/resources/features/SignIn.feature:52
+  Given I navigate to the "https://xaltsocnportal.web.app/"                # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Sign In' button                                     # stepDefinitions.CommonSteps.iClickSignInButton()
+  Then I should be on the Sign In page                                     # stepDefinitions.CommonSteps.verifySignInPage()
+  And I click on 'Already have an account? click here to join' button      # stepDefinitions.SignInSteps.iClickOnAlreadyHaveAnAccountClickHereToJoinButton()
+  Then I should see Sign In form                                           # stepDefinitions.SignInSteps.iShouldBeSeeSignInForm()
+  When I enter an existing test@testmail.com and wrong valid WrongPass@123 # stepDefinitions.SignInSteps.iEnterWrongPasswd(java.lang.String,java.lang.String)
+  And I submit the Sign In form                                            # stepDefinitions.SignInSteps.iSubmitTheSignInForm()
+  Then I should see an Incorrect E-Mail or Password alert message          # stepDefinitions.SignInSteps.iShouldSeeIncorrectEmailPasswordAlertMsg(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Successful Sign Up and Sign Out&quot;, &quot;User Sign Up&quot;](9)" classname="runners.CucumberTestRunner" time="25.514">
+    <system-out><![CDATA[
+Scenario: Successful Sign Up and Sign Out                     # src/test/resources/features/SignUp.feature:11
+  Given I navigate to the "https://xaltsocnportal.web.app/"   # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Get Started' button                    # stepDefinitions.CommonSteps.iClickGetStarrtedButton()
+  Then I should be on the Sign In page                        # stepDefinitions.CommonSteps.verifySignInPage()
+...........New User Credentials...........
+Email:xalts11186@testmail.com
+Password:64cb82@A1
+  And I enter a valid email for sign up and a strong password # stepDefinitions.SignUpSteps.iEnterAValidEmailAndAStrongPassword()
+  And I confirm the password correctly                        # stepDefinitions.SignUpSteps.iConfirmThePasswordCorrectly()
+  And I click on the Sign Up button                           # stepDefinitions.SignUpSteps.iClickOnTheSignUpButton()
+  Then I should see the 'Sign Out' button                     # stepDefinitions.SignUpSteps.verifySignUp()
+  When I click on the 'Sign Out' button                       # stepDefinitions.SignOutSteps.signOut()
+  And I should see the 'Sign In' button                       # stepDefinitions.SignOutSteps.iShouldSeeTheSignInButton()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign Up with an Already Registered Email&quot;, &quot;User Sign Up&quot;](10)" classname="runners.CucumberTestRunner" time="24.921">
+    <system-out><![CDATA[
+Scenario Outline: Sign Up with an Already Registered Email                                # src/test/resources/features/SignUp.feature:27
+  Given I navigate to the "https://xaltsocnportal.web.app/"                               # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Get Started' button                                                # stepDefinitions.CommonSteps.iClickGetStarrtedButton()
+  Then I should be on the Sign In page                                                    # stepDefinitions.CommonSteps.verifySignInPage()
+  And I enter an already registered test@testmail.com for sign up and a strong Xalts@2025 # stepDefinitions.SignUpSteps.iEnterExistingEmailSignUp(java.lang.String,java.lang.String)
+  And I confirm the password correctly                                                    # stepDefinitions.SignUpSteps.iConfirmThePasswordCorrectly()
+  And I click on the Sign Up button                                                       # stepDefinitions.SignUpSteps.iClickOnTheSignUpButton()
+  Then I should see an Provided E-Mail is already in use error message                    # stepDefinitions.SignUpSteps.iShouldSeeEmailAlreadyInUseError(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign Up button disabled if email or password is invalid&quot;, &quot;User Sign Up&quot;](11)" classname="runners.CucumberTestRunner" time="23.467">
+    <system-out><![CDATA[
+Scenario Outline: Sign Up button disabled if email or password is invalid # src/test/resources/features/SignUp.feature:36
+  Given I navigate to the "https://xaltsocnportal.web.app/"               # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Get Started' button                                # stepDefinitions.CommonSteps.iClickGetStarrtedButton()
+  Then I should be on the Sign In page                                    # stepDefinitions.CommonSteps.verifySignInPage()
+  And I enter an invalid invalid-email or a weak Xalts@2025               # stepDefinitions.SignUpSteps.iEnterInvalidEmailOrInvalidPasswd(java.lang.String,java.lang.String)
+  And I confirm the password correctly                                    # stepDefinitions.SignUpSteps.iConfirmThePasswordCorrectly()
+  Then the Sign Up button should remain disabled                          # stepDefinitions.SignUpSteps.iShouldSeeSignUpBtnDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign Up button disabled if email or password is invalid&quot;, &quot;User Sign Up&quot;](12)" classname="runners.CucumberTestRunner" time="13.257">
+    <system-out><![CDATA[
+Scenario Outline: Sign Up button disabled if email or password is invalid # src/test/resources/features/SignUp.feature:37
+  Given I navigate to the "https://xaltsocnportal.web.app/"               # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Get Started' button                                # stepDefinitions.CommonSteps.iClickGetStarrtedButton()
+  Then I should be on the Sign In page                                    # stepDefinitions.CommonSteps.verifySignInPage()
+  And I enter an invalid test@mail.com or a weak 12345                    # stepDefinitions.SignUpSteps.iEnterInvalidEmailOrInvalidPasswd(java.lang.String,java.lang.String)
+  And I confirm the password correctly                                    # stepDefinitions.SignUpSteps.iConfirmThePasswordCorrectly()
+  Then the Sign Up button should remain disabled                          # stepDefinitions.SignUpSteps.iShouldSeeSignUpBtnDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign Up button disabled if email or password is invalid&quot;, &quot;User Sign Up&quot;](13)" classname="runners.CucumberTestRunner" time="13.657">
+    <system-out><![CDATA[
+Scenario Outline: Sign Up button disabled if email or password is invalid # src/test/resources/features/SignUp.feature:38
+  Given I navigate to the "https://xaltsocnportal.web.app/"               # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Get Started' button                                # stepDefinitions.CommonSteps.iClickGetStarrtedButton()
+  Then I should be on the Sign In page                                    # stepDefinitions.CommonSteps.verifySignInPage()
+  And I enter an invalid test@mail.com or a weak password123              # stepDefinitions.SignUpSteps.iEnterInvalidEmailOrInvalidPasswd(java.lang.String,java.lang.String)
+  And I confirm the password correctly                                    # stepDefinitions.SignUpSteps.iConfirmThePasswordCorrectly()
+  Then the Sign Up button should remain disabled                          # stepDefinitions.SignUpSteps.iShouldSeeSignUpBtnDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign Up button disabled if email or password is invalid&quot;, &quot;User Sign Up&quot;](14)" classname="runners.CucumberTestRunner" time="13.379">
+    <system-out><![CDATA[
+Scenario Outline: Sign Up button disabled if email or password is invalid # src/test/resources/features/SignUp.feature:39
+  Given I navigate to the "https://xaltsocnportal.web.app/"               # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Get Started' button                                # stepDefinitions.CommonSteps.iClickGetStarrtedButton()
+  Then I should be on the Sign In page                                    # stepDefinitions.CommonSteps.verifySignInPage()
+  And I enter an invalid invalidemail.com or a weak weakpass              # stepDefinitions.SignUpSteps.iEnterInvalidEmailOrInvalidPasswd(java.lang.String,java.lang.String)
+  And I confirm the password correctly                                    # stepDefinitions.SignUpSteps.iConfirmThePasswordCorrectly()
+  Then the Sign Up button should remain disabled                          # stepDefinitions.SignUpSteps.iShouldSeeSignUpBtnDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign Up button disabled if email or password is invalid&quot;, &quot;User Sign Up&quot;](15)" classname="runners.CucumberTestRunner" time="23.335">
+    <system-out><![CDATA[
+Scenario Outline: Sign Up button disabled if email or password is invalid # src/test/resources/features/SignUp.feature:40
+  Given I navigate to the "https://xaltsocnportal.web.app/"               # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Get Started' button                                # stepDefinitions.CommonSteps.iClickGetStarrtedButton()
+  Then I should be on the Sign In page                                    # stepDefinitions.CommonSteps.verifySignInPage()
+  And I enter an invalid  or a weak Test@123456                           # stepDefinitions.SignUpSteps.iEnterInvalidEmailOrInvalidPasswd(java.lang.String,java.lang.String)
+  And I confirm the password correctly                                    # stepDefinitions.SignUpSteps.iConfirmThePasswordCorrectly()
+  Then the Sign Up button should remain disabled                          # stepDefinitions.SignUpSteps.iShouldSeeSignUpBtnDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign Up button disabled if email or password is invalid&quot;, &quot;User Sign Up&quot;](16)" classname="runners.CucumberTestRunner" time="13.498">
+    <system-out><![CDATA[
+Scenario Outline: Sign Up button disabled if email or password is invalid # src/test/resources/features/SignUp.feature:41
+  Given I navigate to the "https://xaltsocnportal.web.app/"               # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Get Started' button                                # stepDefinitions.CommonSteps.iClickGetStarrtedButton()
+  Then I should be on the Sign In page                                    # stepDefinitions.CommonSteps.verifySignInPage()
+  And I enter an invalid test@mail.com or a weak Weakpass                 # stepDefinitions.SignUpSteps.iEnterInvalidEmailOrInvalidPasswd(java.lang.String,java.lang.String)
+  And I confirm the password correctly                                    # stepDefinitions.SignUpSteps.iConfirmThePasswordCorrectly()
+  Then the Sign Up button should remain disabled                          # stepDefinitions.SignUpSteps.iShouldSeeSignUpBtnDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign Up button disabled if email or password is invalid&quot;, &quot;User Sign Up&quot;](17)" classname="runners.CucumberTestRunner" time="13.231">
+    <system-out><![CDATA[
+Scenario Outline: Sign Up button disabled if email or password is invalid # src/test/resources/features/SignUp.feature:42
+  Given I navigate to the "https://xaltsocnportal.web.app/"               # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Get Started' button                                # stepDefinitions.CommonSteps.iClickGetStarrtedButton()
+  Then I should be on the Sign In page                                    # stepDefinitions.CommonSteps.verifySignInPage()
+  And I enter an invalid  or a weak                                       # stepDefinitions.SignUpSteps.iEnterInvalidEmailOrInvalidPasswd(java.lang.String,java.lang.String)
+  And I confirm the password correctly                                    # stepDefinitions.SignUpSteps.iConfirmThePasswordCorrectly()
+  Then the Sign Up button should remain disabled                          # stepDefinitions.SignUpSteps.iShouldSeeSignUpBtnDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign Up button disabled when password confirmation does not match&quot;, &quot;User Sign Up&quot;](18)" classname="runners.CucumberTestRunner" time="14.618">
+    <system-out><![CDATA[
+Scenario Outline: Sign Up button disabled when password confirmation does not match # src/test/resources/features/SignUp.feature:51
+  Given I navigate to the "https://xaltsocnportal.web.app/"                         # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Get Started' button                                          # stepDefinitions.CommonSteps.iClickGetStarrtedButton()
+  Then I should be on the Sign In page                                              # stepDefinitions.CommonSteps.verifySignInPage()
+  And I enter valid test@mail.com and Xalts@2025                                    # stepDefinitions.SignUpSteps.iEnterValidEmailStrongPasssword(java.lang.String,java.lang.String)
+Passwords do not match error: Passwords do not match
+  And I enter a different Xalts@2024                                                # stepDefinitions.SignUpSteps.iEnterDifferentConfirmPassword(java.lang.String)
+  Then the Sign Up button should remain disabled                                    # stepDefinitions.SignUpSteps.iShouldSeeSignUpBtnDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign Up button disabled when password confirmation does not match&quot;, &quot;User Sign Up&quot;](19)" classname="runners.CucumberTestRunner" time="14.326">
+    <system-out><![CDATA[
+Scenario Outline: Sign Up button disabled when password confirmation does not match # src/test/resources/features/SignUp.feature:52
+  Given I navigate to the "https://xaltsocnportal.web.app/"                         # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Get Started' button                                          # stepDefinitions.CommonSteps.iClickGetStarrtedButton()
+  Then I should be on the Sign In page                                              # stepDefinitions.CommonSteps.verifySignInPage()
+  And I enter valid user@test.com and Secure@123                                    # stepDefinitions.SignUpSteps.iEnterValidEmailStrongPasssword(java.lang.String,java.lang.String)
+Passwords do not match error: Passwords do not match
+  And I enter a different Secure123                                                 # stepDefinitions.SignUpSteps.iEnterDifferentConfirmPassword(java.lang.String)
+  Then the Sign Up button should remain disabled                                    # stepDefinitions.SignUpSteps.iShouldSeeSignUpBtnDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sign Up button disabled when password confirmation does not match&quot;, &quot;User Sign Up&quot;](20)" classname="runners.CucumberTestRunner" time="13.345">
+    <system-out><![CDATA[
+Scenario Outline: Sign Up button disabled when password confirmation does not match # src/test/resources/features/SignUp.feature:53
+  Given I navigate to the "https://xaltsocnportal.web.app/"                         # stepDefinitions.CommonSteps.iNavigateToThe(java.lang.String)
+  When I click on the 'Get Started' button                                          # stepDefinitions.CommonSteps.iClickGetStarrtedButton()
+  Then I should be on the Sign In page                                              # stepDefinitions.CommonSteps.verifySignInPage()
+  And I enter valid another@test.com and Pass@5678                                  # stepDefinitions.SignUpSteps.iEnterValidEmailStrongPasssword(java.lang.String,java.lang.String)
+Passwords do not match error: Passwords do not match
+  And I enter a different Pass5678                                                  # stepDefinitions.SignUpSteps.iEnterDifferentConfirmPassword(java.lang.String)
+  Then the Sign Up button should remain disabled                                    # stepDefinitions.SignUpSteps.iShouldSeeSignUpBtnDisabled()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Arun Reddy R\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+]]></system-err>
+  </testcase>
+</testsuite>
