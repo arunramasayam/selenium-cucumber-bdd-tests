@@ -13,8 +13,8 @@ This repository contains the automation testing suite for the **XALTSOCN Portal 
 
 ### Prerequisites
 Ensure you have the following installed:
-- [Java JDK 21](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
-- [Apache Maven](https://maven.apache.org/)
+- Java JDK 21
+- Apache Maven
 - IntelliJ IDEA or Eclipse (Recommended IDEs)
 
 ### Clone the Repository
