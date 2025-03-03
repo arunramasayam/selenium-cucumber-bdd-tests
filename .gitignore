@@ -1,0 +1,39 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore build and IDE files
+*.class
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore Java dependencies and build directories
+target/
+bin/
+out/
+*.jar
+*.war
+*.ear
+
+# Ignore IntelliJ IDEA / Eclipse / VS Code settings
+.idea/
+.vscode/
+*.iml
+*.project
+*.classpath
+*.settings/
+
+# Ignore Maven / Gradle files
+.mvn/
+.gradle/
+*.lock
+
+# Ignore test reports (optional)
+test-output/
+allure-results/
+reports/
+
+# Ignore environment files
+.env
