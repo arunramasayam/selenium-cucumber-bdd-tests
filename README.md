@@ -102,7 +102,7 @@ mvn clean test
 - **Cucumber Report (HTML)** → `docs/cucumber-reports.html`  
 - you can also view existing test reports online here:  
   ```
-  https://<your-username>.github.io/selenium-cucumber-bdd-tests/cucumber-reports.html
+  https://arunramasayam.github.io/selenium-cucumber-bdd-tests/cucumber-reports.html
   ```  
 
 ---
